@@ -1,67 +1,67 @@
 import java.util.*;
 public class practice {
-    // public static void reverseword(String s){
-    //     s = s.trim().replaceAll("\\s+"," ");
-    //     String[] words = s.split(" ");
-    //     System.out.println(words.length);
-    //     StringBuilder reverse = new StringBuilder();
-    //     for(int i = words.length-1;i>=0;i--){
-    //         reverse.append(words[i]);
-    //         System.out.println(reverse);
-    //         if(i!=0){
-    //             reverse.append(" ");
-    //         }
+    public static void reverseword(String s){
+        s = s.trim().replaceAll("\\s+"," ");
+        String[] words = s.split(" ");
+        System.out.println(words.length);
+        StringBuilder reverse = new StringBuilder();
+        for(int i = words.length-1;i>=0;i--){
+            reverse.append(words[i]);
+            System.out.println(reverse);
+            if(i!=0){
+                reverse.append(" ");
+            }
             
-    //     }
-    //     System.out.println(reverse.toString());
-    // }
+        }
+        System.out.println(reverse.toString());
+    }
 
-    // public static String longestCommonPrefix(String[] strs) {
-    //         StringBuilder result = new StringBuilder("");
-    //         for(int i = 0;i<strs[0].length();i++){
-    //             char ch = strs[0].charAt(i);
-    //             for(String word : strs){
-    //                 if(i>=word.length() || word.charAt(i) != ch)
-    //                 {
-    //                     return result.toString();
-    //                 }
-    //             }
-    //             result.append(ch);
-    //         }
-    //         return result.toString();
-    // }
+    public static String longestCommonPrefix(String[] strs) {
+            StringBuilder result = new StringBuilder("");
+            for(int i = 0;i<strs[0].length();i++){
+                char ch = strs[0].charAt(i);
+                for(String word : strs){
+                    if(i>=word.length() || word.charAt(i) != ch)
+                    {
+                        return result.toString();
+                    }
+                }
+                result.append(ch);
+            }
+            return result.toString();
+    }
 
-    // public static boolean isIsomorphic(String s, String t) {
-    //     if(s.length() != t.length()){return false;}
+    public static boolean isIsomorphic(String s, String t) {
+        if(s.length() != t.length()){return false;}
 
-    //     HashMap<Character, Character> map = new HashMap<>();
-    //     HashSet<Character> mappedvalues = new HashSet<>();
+        HashMap<Character, Character> map = new HashMap<>();
+        HashSet<Character> mappedvalues = new HashSet<>();
 
-    //     for(int i = 0;i<s.length();i++){
-    //         char cs = s.charAt(i);
-    //         char ct = t.charAt(i);
-    //         if(map.containsKey(cs)){
-    //             if(map.get(cs) != ct){
-    //                 return false;
-    //             }
-    //         }
-    //         else{
-    //             if(mappedvalues.contains(ct)){
-    //                 return false;
-    //             }
-    //             map.put(cs,ct);
-    //             mappedvalues.add(ct);
-    //         }
-    //     }
-    //     return true;
-    // }
+        for(int i = 0;i<s.length();i++){
+            char cs = s.charAt(i);
+            char ct = t.charAt(i);
+            if(map.containsKey(cs)){
+                if(map.get(cs) != ct){
+                    return false;
+                }
+            }
+            else{
+                if(mappedvalues.contains(ct)){
+                    return false;
+                }
+                map.put(cs,ct);
+                mappedvalues.add(ct);
+            }
+        }
+        return true;
+    }
 
-    // public static boolean rotateString(String s, String goal) {
-    //     int n = s.length();
-    //     if(n != goal.length()) return false;
-    //     String rotated = s+s;
-    //     return (rotated.contains(goal));
-    // }
+    public static boolean rotateString(String s, String goal) {
+        int n = s.length();
+        if(n != goal.length()) return false;
+        String rotated = s+s;
+        return (rotated.contains(goal));
+    }
 
     public static int romanToInt(String s) {
         
@@ -103,15 +103,15 @@ public class practice {
 
 
     public static void main(String args[]){
-        // String s = "the sky is blue";
-        // reverseword(s);
-        // String[] strs = {"flower","flow","flight"};
-        // String res = longestCommonPrefix(strs);
-        // System.out.println(res);
-        // boolean ans = isIsomorphic("egcd","adfd");
-        // System.out.println(ans);
-        // boolean result = rotateString("abcde","abced");
-        // System.out.println(result);
+        String s = "the sky is blue";
+        reverseword(s);
+        String[] strs = {"flower","flow","flight"};
+        String res = longestCommonPrefix(strs);
+        System.out.println(res);
+        boolean ans = isIsomorphic("egcd","adfd");
+        System.out.println(ans);
+        boolean result = rotateString("abcde","abced");
+        System.out.println(result);
 
         int num = romanToInt("MCDLXXVI");
         System.out.println(num);

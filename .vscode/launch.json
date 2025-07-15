@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
             "name": "stackUsingQueue",
             "request": "launch",
             "mainClass": "stackUsingQueue",
