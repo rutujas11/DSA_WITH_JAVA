@@ -89,10 +89,6 @@ public class dequeue {
         dq.display();
         System.out.println("Deleted rear element : "+dq.removerear());
         dq.display();
-
-
-
-
     }
 }
 

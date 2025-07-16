@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CircularDeque",
+            "request": "launch",
+            "mainClass": "CircularDeque",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
             "name": "dequeue",
             "request": "launch",
             "mainClass": "dequeue",
