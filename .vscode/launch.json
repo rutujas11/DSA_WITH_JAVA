@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BFS_traversal",
+            "request": "launch",
+            "mainClass": "BFS_traversal",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
             "name": "practice",
             "request": "launch",
             "mainClass": "practice",
