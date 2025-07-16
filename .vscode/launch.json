@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "dequeue",
+            "request": "launch",
+            "mainClass": "dequeue",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
             "name": "BFS_traversal",
             "request": "launch",
             "mainClass": "BFS_traversal",
