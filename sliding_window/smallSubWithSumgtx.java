@@ -21,7 +21,7 @@ public class smallSubWithSumgtx {
     public static void main(String[] args) {
         int[] arr = {1,4,45,6,2,0,19};
         int result = smallsub(arr, 51);
-        System.out.println("length of smallest subarray with sum greater than 51 is : "+result);  
+        System.out.println("Length of Smallest subarray with sum greater than 51 is : "+result);  
         // output --> 3 --> subarray {45,6,2} has sum == 53 which is smallest sum which is greater than 51(x)
     }
 }
