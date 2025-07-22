@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "max_sum_ltx",
+            "request": "launch",
+            "mainClass": "max_sum_ltx",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
+            "name": "smallSubWithSumgtx",
+            "request": "launch",
+            "mainClass": "smallSubWithSumgtx",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
+            "name": "maxsum_subarray",
+            "request": "launch",
+            "mainClass": "maxsum_subarray",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
+            "name": "maxSum_of_subarray",
+            "request": "launch",
+            "mainClass": "sliding_window.maxSum_of_subarray",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
             "name": "Arraylist",
             "request": "launch",
             "mainClass": "Arraylist",
