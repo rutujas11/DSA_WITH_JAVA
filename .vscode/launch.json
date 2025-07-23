@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sub_with_givensum",
+            "request": "launch",
+            "mainClass": "Sub_with_givensum",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
             "name": "max_sum_ltx",
             "request": "launch",
             "mainClass": "max_sum_ltx",
