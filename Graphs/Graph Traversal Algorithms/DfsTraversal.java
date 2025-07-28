@@ -70,12 +70,12 @@ public class DfsTraversal {
         }
     }
     public static void main(String[] args){
-        Graph dfsobj = new Graph(6);
+        Graph dfsobj = new Graph(5);
         dfsobj.addEdge(0, 1);
         dfsobj.addEdge(0, 2);
-        dfsobj.addEdge(1, 3);
-        dfsobj.addEdge(1, 4);
-        dfsobj.addEdge(2, 5);
+        dfsobj.addEdge(0, 3);
+        dfsobj.addEdge(2, 4);
+
 
         dfsobj.sortadj();
 
