@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DfsTraversal",
+            "request": "launch",
+            "mainClass": "DfsTraversal",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
+            "name": "BfsTraversal",
+            "request": "launch",
+            "mainClass": "BfsTraversal",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
+            "name": "GraphRepresentation",
+            "request": "launch",
+            "mainClass": "GraphRepresentation",
+            "projectName": "DSA_WITH_JAVA_febd01dd"
+        },
+        {
+            "type": "java",
             "name": "Sub_with_givensum",
             "request": "launch",
             "mainClass": "Sub_with_givensum",
