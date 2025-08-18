@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DirectedGraphCycle",
+            "request": "launch",
+            "mainClass": "DirectedGraphCycle",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
+            "name": "UndirectedGraphCycle",
+            "request": "launch",
+            "mainClass": "UndirectedGraphCycle",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
             "name": "BinaryTree",
             "request": "launch",
             "mainClass": "BinaryTree",
