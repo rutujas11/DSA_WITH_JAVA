@@ -1,0 +1,23 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        ".",
+        "Arrays",
+        "Backtracking",
+        "Graphs",
+        "Graphs\\Detect Cycle",
+        "Graphs\\Graph Traversal Algorithms",
+        "Graphs\\Shortest path algos",
+        "Graphs\\Topological Sorting",
+        "Hashing",
+        "LinkedList",
+        "Queue",
+        "Recursion",
+        "sliding_window",
+        "Sorting_algorithms",
+        "Stack",
+        "strings"
+    ],
+    "java.project.referencedLibraries": [],
+    "java.project.outputPath": "bin"
+}
