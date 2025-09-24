@@ -125,7 +125,7 @@ public class BinaryTree {
         int level = 0;
         while(!q.isEmpty()){
             int size = q.size();
-            System.out.print("Level" +level+ " --> ");
+            System.out.print("Level " +level+ " --> ");
             for(int i = 0;i<size;i++){
                 Node temp = q.poll();
                 System.out.print(temp.data + " ");

@@ -14,7 +14,7 @@ public class BellmanFord {
     }
 
     @SuppressWarnings("Convert2Diamond")
-    public static void createGraph(ArrayList<edge> graph[]){
+    static void createGraph(ArrayList<edge> graph[]){
         for(int i = 0; i<graph.length;i++){
             graph[i] = new ArrayList<edge>();
         }
@@ -28,7 +28,7 @@ public class BellmanFord {
         graph[3].add(new edge(4, 1, -1));
     }
 
-    public static void bellManFord(ArrayList<edge> graph[], int src, int V){
+    static void bellManFord(ArrayList<edge> graph[], int src, int V){
         int dist[] = new int[V];
         for(int i = 0;i<V;i++){
             if(i != src){

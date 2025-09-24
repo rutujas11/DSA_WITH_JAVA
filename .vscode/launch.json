@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "floodFill",
+            "request": "launch",
+            "mainClass": "FloodFilling.floodFill",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
+            "name": "GraphColoring",
+            "request": "launch",
+            "mainClass": "GraphColoring",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
+            "name": "GraphColoring",
+            "request": "launch",
+            "mainClass": "graphColoring.GraphColoring",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
             "name": "primsAlgo",
             "request": "launch",
             "mainClass": "MinimumSpanningTree.primsAlgo",

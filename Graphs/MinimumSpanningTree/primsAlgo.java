@@ -13,7 +13,8 @@ public class primsAlgo {
         }
     }
 
-    public static void createGraph(ArrayList<edge> graph[]){
+    @SuppressWarnings("Convert2Diamond")
+    static void createGraph(ArrayList<edge> graph[]){
         for(int i= 0;i<graph.length;i++){
             graph[i] = new ArrayList<edge>();
         }
@@ -47,7 +48,7 @@ public class primsAlgo {
         }
     }
 
-    public static void primsAlgorithm(ArrayList<edge> graph[], int V){
+    static void primsAlgorithm(ArrayList<edge> graph[], int V){
         PriorityQueue<Pair> pq = new PriorityQueue<>();
         boolean visit[] = new boolean[V];
         pq.add(new Pair(0,0));
