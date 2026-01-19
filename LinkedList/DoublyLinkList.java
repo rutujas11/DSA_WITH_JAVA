@@ -84,6 +84,11 @@ class DoublyLinkList {
         }
         temp.prev.next = temp.next;
         temp.next.prev = temp.prev;
+
+        // Alternate method
+        // change in while condition ==> while(temp != null && i<idx-1)
+         // temp.next = temp.next.next;
+         // temp.next.prev = temp;
         
     }
 
@@ -140,7 +145,7 @@ class DoublyLinkList {
         dll.insertAt(10, 1);
         dll.printlist();
         System.out.println("After deletion of number at idx 1");
-        dll.delete_at_idx(1);
+        dll.delete_at_idx(3);
         dll.printlist();
         System.out.println("After deletion of value 4");
         dll.delete_by_value(4);
