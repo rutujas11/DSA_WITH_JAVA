@@ -6,6 +6,7 @@ public class Infix_to_postfix {
         else if(ch == '+' || ch=='-') return 1;
         else return -1;
     }
+    
     static String infixToPost(String s){
         Stack<Character> st = new Stack<>();
 

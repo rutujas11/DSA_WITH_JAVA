@@ -65,7 +65,7 @@ public class BinaryTree {
                 node = node.right;
             }
         }
-    }    
+    }       
 
     void preorder(Node node){
         if(node != null){

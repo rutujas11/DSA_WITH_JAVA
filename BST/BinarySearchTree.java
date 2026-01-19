@@ -32,6 +32,8 @@ public class BinarySearchTree {
         }else if(key > root.data){
             root.right = insertRec(root.right, key);
         }
+
+        
         
         return root;
     }

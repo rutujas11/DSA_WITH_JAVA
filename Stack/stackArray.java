@@ -14,6 +14,7 @@ public class stackArray {
             System.out.println("Stack is full, can't add!");
             return;
         }
+
         stack[++top] = data;
     }
 
@@ -31,6 +32,7 @@ public class stackArray {
         }
         return stack[top];
     }
+    
     boolean isempty(){
         return top==-1;
     }

@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Linkedlist",
+            "request": "launch",
+            "mainClass": "Linkedlist",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
+            "name": "DFS",
+            "request": "launch",
+            "mainClass": "DFS",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
+            "name": "BFS",
+            "request": "launch",
+            "mainClass": "BFS",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
+            "name": "graphCrea",
+            "request": "launch",
+            "mainClass": "graphCrea",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
+            "name": "GraphRepresentation",
+            "request": "launch",
+            "mainClass": "GraphRepresentation",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
+            "name": "ThreeSum",
+            "request": "launch",
+            "mainClass": "TwoPointers.ThreeSum",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
+            "name": "validPalindrome",
+            "request": "launch",
+            "mainClass": "TwoPointers.validPalindrome",
+            "projectName": "DSA_WITH_JAVA_b9283af8"
+        },
+        {
+            "type": "java",
             "name": "floodFill",
             "request": "launch",
             "mainClass": "FloodFilling.floodFill",
