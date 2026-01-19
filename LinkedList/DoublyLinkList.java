@@ -120,6 +120,22 @@ class DoublyLinkList {
         System.out.println("length of linked list is : "+len);
     }
 
+    public void reverseDll(){
+        Node prev = null;
+        Node curr = head;
+        
+        while(curr != null){
+            Node temp = curr.next;
+            curr.next = curr.prev;
+            curr.prev = temp;
+            prev = curr;
+            curr = temp;
+        }
+
+        head = prev;
+
+    }
+
     public void printlist(){
         if(head == null){
             System.out.println("List is empty");
@@ -142,9 +158,14 @@ class DoublyLinkList {
         dll.addfirst(1);
         dll.addlast(4);
         dll.addlast(5);
-        dll.insertAt(10, 1);
         dll.printlist();
-        System.out.println("After deletion of number at idx 1");
+        dll.insertAt(10, 3);
+        dll.printlist();
+        dll.reverseDll();
+        System.out.println("After Reversing the LinkedList");
+        dll.printlist();
+        
+        System.out.println("After deletion of number at idx 3");
         dll.delete_at_idx(3);
         dll.printlist();
         System.out.println("After deletion of value 4");

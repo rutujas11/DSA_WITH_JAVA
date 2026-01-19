@@ -107,19 +107,6 @@ class Linkedlist{
         temp.next = temp.next.next;
     }
 
-    public void printlist(){
-        if(head == null){
-            System.out.println("list is empty");
-            return;
-        }
-        Node temp = head;
-        while(temp != null){
-            System.out.print(temp.data+"--->");
-            temp = temp.next;
-        }
-        System.out.print("Null");
-    }
-
     public void deletebyvalue(int data){
         if(head == null){
             System.out.println("list is empty");
@@ -141,6 +128,33 @@ class Linkedlist{
         temp.next = temp.next.next;
     }
 
+    public void reverseList(){
+        Node prev = null;
+        Node curr = head;
+
+        while(curr != null){
+            Node temp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = temp;
+        }
+        head = prev;
+    }
+
+    public void printlist(){
+        if(head == null){
+            System.out.println("list is empty");
+            return;
+        }
+        Node temp = head;
+        while(temp != null){
+            System.out.print(temp.data+"--->");
+            temp = temp.next;
+        }
+        System.out.print("Null");
+    }
+
+    
     public static void main(String args[]){
         Linkedlist llist = new Linkedlist();
 
@@ -155,6 +169,11 @@ class Linkedlist{
         llist.addlast(9);
 
         System.out.print("LinkedList created : ");
+        llist.printlist();
+        System.out.println();
+
+        System.out.print("LinkedList Reversed : ");
+        llist.reverseList();
         llist.printlist();
         System.out.println();
 
